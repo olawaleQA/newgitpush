@@ -12,8 +12,17 @@
 
 
 
-function AngleOfRectangle (lenght,width){
-    return lenght * width
+const car = {
+    Name: "camry",
+    Year: 2023,
+    brand: "Toyota",
+    Types: ["Suv", "Hybrid", "Sedan"],
+    models: ['corolla', 'Tundra', 'Camry', 'Highlander'],
+    addModels: function(name){
+        car.models.push(name)
+    }
+
 }
-let Area = AngleOfRectangle(23,5)
-console.log(Area)
+car.addModels('Avalon')
+car.colour = 'Blue'
+console.log(car)
