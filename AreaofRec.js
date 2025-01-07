@@ -5,8 +5,8 @@
 // console.log(Area)
 
 
-function AngleOfRectangle (lenght,width){
+function angleOfRectangle (lenght,width){
     return lenght * width
 }
-let Area = AngleOfRectangle(92,2)
-console.log(Area)
+let area = angleOfRectangle(92,2)
+console.log(area)
